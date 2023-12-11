@@ -114,7 +114,7 @@ export function Home() {
     loadMoreFixed();
   }, [])
 
-  console.log()
+  console.log('1')
   return (
     <View style={styles.container}>
       <View style={styles.header}>
@@ -139,7 +139,7 @@ export function Home() {
       <View style={styles.categoriesContainer}>
         <FlatList
           data={fixedDiscovered}
-          keyExtractor={(item) => item.id + 'a'}
+          keyExtractor={(item) => String(item.id + Math.random())}
           renderItem={renderMovieFixed}
           horizontal={true} // Se deseja que a lista seja horizontal
         />
