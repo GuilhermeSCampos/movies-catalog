@@ -1,35 +1,32 @@
 <h1 align="start">
-  M
+  Movie APP
 </h1>
 
 <h4 align="start">Projeto de um catálogo de filmes</h4>
 
-
-https://github.com/GuilhermeSCampos/movies-catalog/assets/82980024/3df3df04-2e3a-4f45-9466-883893272906
-
+https://github.com/GuilhermeSCampos/movies-catalog/assets/82980024/7a6ec357-0e09-4771-a987-148b03bc8fff
 
 ## Funcionalidades
-  Dota2Guess é um quiz de Dota 2 com 3 categorias: clássico, fala e habilidade. <br/>
-  O jogador terá de advinhar o herói do dia por seus atributos, fala, e imagem de habilidade respectivamente. <br/>
-  O horário de reset é Meia Noite (UTC-3). <br/>
-  Possui design responsivo.
+  Movie App é um aplicativo mobile de um catálogo de filmes com um scroll "infinito"<br/><br/>
+  O usuário pode pesquisar os filmes por nome, categorias e salvar filmes como assistidos<br/>
 
 ## 🚀 Tecnologias
 
 Tecnologias que eu utilizei para desenvolver:
 
-- [React](https://reactjs.org)
-- [React Router](https://reactrouter.com/en/main)
-- [Tailwind](https://tailwindcss.com/)
-- [i18n](https://www.i18next.com/)
-- [React Icons](https://react-icons.github.io/react-icons/)
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [Async Storage](https://docs.expo.dev/versions/latest/sdk/async-storage/)
+- [Phospor Icons](https://phosphoricons.com/)
+- Context API
+
 
 ## 💻 Como Usar
 
 **Clone o projeto em sua máquina e acesse o diretório**
 
 ```bash
- git clone git@github.com:GuilhermeSCampos/dota2guess-frontend.git && cd dota2guess-frontend
+ git clone git@github.com:GuilhermeSCampos/movies-catalog.git && cd movies-catalog
 ```
 
 **Siga os passos abaixo**
@@ -38,8 +35,12 @@ Tecnologias que eu utilizei para desenvolver:
 # Instale as dependências
  npm install
 
-# Rode o cliente e acesse http://localhost:5173
- npm run dev
+# Rode o cliente
+ npx expo start
 ```
-**Bom Jogo :)**
-##### Deploy na Vercel --> https://dota2guess-frontend.vercel.app
+
+## Créditos
+
+O projeto foi inicialmente desenvolvido e proposto pelo canal no Youtube [Jovem Programador](https://www.youtube.com/@GaiProgramador) e finalizado por mim com a tela inicial melhorada, bem como a criação de lógicas e aperfeiçoamentos e criação de outras telas
+
+Figma do Projeto --> https://www.figma.com/file/l6CKzklm6qgf5YaoM7Xosg/Movies-app-(Community)?type=design&node-id=7-757&mode=design
